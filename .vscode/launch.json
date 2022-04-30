@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "1300 Sandbox",
+            "server": "https://wiise.bc.dynamics.com/",
+            "environmentType": "Sandbox",
+            "environmentName": "DONOTDELETE",
+            // "environmentName": "Sandydev",
+            "tenant": "bdd83e00-a2c0-4f04-ba6b-fa5d58c6e819",
+            "breakOnError": true,
+            "launchBrowser": false,
+            "authentication": "AAD",
+            "applicationFamily": "Wiise",
+            "schemaUpdateMode": "Recreate"
+        }
+    ]
+}
